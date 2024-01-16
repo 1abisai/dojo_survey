@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="display: flex; justify-content: center;">
+        <div style="background-color: rgb(62, 61, 61); height: 600px; width: 400px; margin-top: 20px;">
+            <h1 class="text-warning ms-5  mt-5">Dojo Survey</h1>
+            <br></br>
+            <form action="/" method="post">
+
+                <label class="text-light ms-5" for="names">Name:</label>
+                <input class="ms-5" type="text" name="names">
+                <br></br>
+                <label class="text-light ms-5" for="dojo">Dojo Location:</label>
+
+                <select name="dojo">
+                    <option value="Seattle">Seattle</option>
+                    <option value="Burbank">Burbank</option>
+                    <option value="Chicago">Chicago</option>
+                </select>
+                <br></br>
+                <label class="text-light ms-5" for="language">Favorite Language:</label>
+
+                <select name="language">
+                    <option value="Python">Python</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value='Java'>Java</option>
+                    <option value="C#">C#</option>
+                    <option value="CSS">CSS</option>
+                    <option value="HTML">HTML</option>
+                </select>
+                <br></br>
+
+                <label class="text-light ms-5" for="comments">Comments:</label>
+                <input class="ms-5" type="text" name="comments">
+                <br></br>
+
+                <div class="col-auto d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary mt-5">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
